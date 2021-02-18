@@ -675,8 +675,9 @@ textarea {
     .site-branding
 	  .site-title
 	  .site-description
-	 #site-nagigation .main-navigation
+	 #site-navigation .main-navigation
 	#primary .site-main (section principale de la page)
+	#secondary - widget-area
 	#colophon .site-footer
 */
 .site-branding, #primary, #colophon {
@@ -698,6 +699,9 @@ textarea {
   list-style: none;
   margin: 0;
   padding-left: 0;
+  background-color: #005;
+  position: absolute;
+  width: 100%;
 }
 
 .main-navigation ul ul {
@@ -753,6 +757,10 @@ menu tablet
   }
   .main-navigation ul {
     display: flex;
+    justify-content: space-around;
+    height: 2rem;
+    position: static;
+    align-items: center;
   }
 }
 
