@@ -707,7 +707,6 @@ textarea {
 
 .main-navigation ul ul {
   box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-  float: left;
   position: absolute;
   top: 100%;
   left: -999em;
@@ -1098,6 +1097,12 @@ body.home::after {
   background-color: white;
   z-index: -1;
   clip-path: polygon(0 0, 100% 0, 100% 70%, 45% 100%, 0 100%);
+}
+
+@media (min-width: 600px) {
+  body.home::after {
+    clip-path: polygon(90% 0, 100% 0, 100% 100%, 80% 100%);
+  }
 }
 
 @media (min-width: 1000px) {

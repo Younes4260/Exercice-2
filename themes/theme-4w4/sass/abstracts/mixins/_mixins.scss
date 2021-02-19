@@ -16,3 +16,11 @@ $desktop_accueil: 1000px;
 		@content;
 	}
 }
+
+$tablet_accueil: 600px;
+@mixin tablet {
+
+	@media (min-width: #{$tablet_accueil}) {
+		@content;
+	}
+}
