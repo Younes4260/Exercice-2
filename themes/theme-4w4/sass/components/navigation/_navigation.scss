@@ -8,8 +8,12 @@
 		margin: 0;
 		padding-left: 0;
 		background-color: #005;
+		border-radius: 50px;
 		position: absolute;
 		width: 100%;
+		-webkit-box-shadow: inset 0px 0px 7px 0px rgba(0,0,0,0.75);
+		-moz-box-shadow: inset 0px 0px 7px 0px rgba(0,0,0,0.75);
+		box-shadow: inset 0px 0px 7px 0px rgba(0,0,0,0.75);
 
 		ul {
 			box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
@@ -105,6 +109,15 @@ Bouton burger
 .menu-toggle,
 .main-navigation.toggled ul {
 	display: block;
+	border-radius: 50px;
+
+	li {
+		padding: 0.5rem 0;
+	}
+}
+
+.main-navigation.toggled {
+	margin-bottom: 20rem;
 }
 
 /* ---------------------------------------------
@@ -124,6 +137,7 @@ menu tablet
 		align-items: center;
 	}
 }
+
 
 .comment-navigation,
 .posts-navigation,
