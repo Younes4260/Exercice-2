@@ -1,3 +1,30 @@
+.site-title {
+    font-family: $font__title;
+    font-size: clamp(1.5rem, #{"-0.875rem + 8.333vw"}, 4rem);
+    font-weight: bold;
+    color: #003;
+    margin-bottom: 0;
+    a {
+    text-decoration: none;
+}
+}
+
+.site-description {
+    font-family: $font__title;
+    font-size: clamp(.8rem, #{"-0.875rem + 8.333vw"}, 1.5rem);
+    font-weight: bold;
+    color: #003;
+    margin-top: 0;
+}
+
+.accueil {
+    font-size: clamp(.8rem, #{"-0.875rem + 8.333vw"}, 2rem);
+    li {
+        list-style-type: none;
+    }
+}
+
+
 body.home {
     margin: 0;
     padding: 0;
