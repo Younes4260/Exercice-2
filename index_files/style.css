@@ -796,6 +796,7 @@ menu tablet
   .menu-toggle {
     display: none;
   }
+  .main-navigation.toggled ul,
   .main-navigation ul {
     display: flex;
     justify-content: space-around;

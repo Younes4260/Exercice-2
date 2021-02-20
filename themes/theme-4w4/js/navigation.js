@@ -47,9 +47,10 @@
 		if (window.innerWidth > 600) {
 		  document.getElementById( 'site-navigation' ).classList.remove( 'toggled' );
 		}
-
-	  window.addEventListener('resize', checkMediaQuery);
 	}
+	
+	  window.addEventListener('resize', checkMediaQuery);
+	
 
 	// Remove the .toggled class and set aria-expanded to false when the user clicks outside the navigation.
 	document.addEventListener( 'click', function( event ) {
